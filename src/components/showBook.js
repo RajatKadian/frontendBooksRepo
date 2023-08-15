@@ -45,7 +45,9 @@ function ShowBook() {
             <div className="card-container">
                 {books.map(book => (
                     <div key={book.id} className="card">
-                        <img src="/book.png" className="book-image" alt="book"></img>
+                        {/* <img src="/book.png" className="book-image" alt="book"></img> */}
+                        <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg" className="book-image" alt="book" />
+
                         <h1>{book.title}</h1>
                         <h2>{book.author}</h2>
                         <h3>{book.description}</h3>
